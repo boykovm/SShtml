@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@font-face {
+  font-family: "Muli";
+  //src: url("../fonts/muli/Muli-SemiBold.ttf");
+  src: url("../fonts/muli/Muli-Light.ttf");
+  //font-weight: 400;
+  //src: url("../fonts/muli/Muli-SemiBold.ttf");
+  //font-weight: 600;
+};
+
+$break-point-1: 640px;
+
+$bg-default-color: #ffffff;
+
+$dark-blue-grey: rgb(17, 34, 63);
+
+$clear-blue-5: rgba(25, 104, 252, 0.05);
+
+$light-royal-blue-10: rgba(49, 69, 244, 0.1);
+
+$main-blue: #1968fc;
+
+$text-style: (
+        "color" : $dark-blue-grey,
+        "line-height": 40px,
+        "word-spacing": 0px,
+        "font-size": 20px,
+        "font-weight": normal,
+        "font-family": Muli,
+);
+
+$text-style-2: (
+        "color" : #16133e,
+        "line-height": 68px,
+        "word-spacing": 0px,
+        "font-size": 56px,
+        "font-weight": 600,
+        "font-family": 'Nunito Sans',
+);
+
+$text-style-3: (
+        "color" : $dark-blue-grey,
+        "line-height": 60px,
+        "word-spacing": 1px,
+        "font-size": 40px,
+        "font-weight": 600,
+        "font-family": Muli,
+);
+
+$text-style-4: (
+        "color" : #000000,
+        "line-height": 20px,
+        "word-spacing": 0px,
+        "font-size": 14px,
+        "font-weight": 600,
+        "font-family": Muli,
+);
+
+$text-style-5: (
+        "color" : #ffffff,
+        "line-height": 20px,
+        "word-spacing": 0px,
+        "font-size": 14px,
+        "font-weight": normal,
+        "font-family": Helvetica,
+);
+
+$text-style-6: (
+        "color" : #141720,
+        "line-height": 26px,
+        "word-spacing": 0.35px,
+        "font-size": 16px,
+        "font-weight": normal,
+        "font-family": Helvetica,
+        "letter-spacing": 0.53px,
+);
